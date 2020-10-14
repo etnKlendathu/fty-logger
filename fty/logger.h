@@ -157,7 +157,7 @@ namespace details {
 } // namespace details
 // =====================================================================================================================
 
-template <typename T>
+/*template <typename T>
 Logger& Logger::operator<<(const T& val)
 {
     auto addText = [&](const std::string& str) {
@@ -194,7 +194,7 @@ Logger& Logger::operator<<(const T& val)
         addText(fty::convert<std::string>(val));
     }
     return *this;
-}
+}*/
 
 } // namespace fty
 

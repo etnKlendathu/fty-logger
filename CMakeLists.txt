@@ -19,7 +19,6 @@ etn_target(shared ${PROJECT_NAME}
         src/logger.cpp
     USES_PUBLIC
         fty-utils
-        fmt::fmt
     USES
         log4cplus
 )
